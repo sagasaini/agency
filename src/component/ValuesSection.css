@@ -1,0 +1,56 @@
+.values-section {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 45vh; */
+  background: #002244;
+}
+.container {
+  display: flex;
+  gap: 80px;
+  width: 80%;
+  /* background: white; */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.content-1 {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  background-color: #1F2A48;
+  text-align: center;
+}
+.section:not(:last-child) {
+  /* border-right: 2px dashed #555; */
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.content-1 {
+  font-size: 16px;
+  line-height: 1.5;
+  height: 200px;
+}
+.mid-content{
+  background-color: rgb(228, 224, 224);
+  color: black;
+}
+/* Since the middle div has a different structure, you would adjust it like this: */
+.middle-section {
+  /* background-color: white; */
+  color: #333;
+  border-right: none;
+}
+@media (max-width:768px){
+  .container{
+    display: block;
+  }
+}

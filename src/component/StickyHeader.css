@@ -1,0 +1,40 @@
+.sticky-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #002244; /* Adjust to match the image background */
+    position: sticky;
+    top: 70px;
+    z-index: 1000;
+    flex-direction: column;
+    /* Ensure it stays above other content */
+  }
+  
+  .form-field {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #fff; /* Background color for the input fields */
+    border: 1px solid #ccc; /* Border color for the input fields */
+    border-radius: 4px; /* Rounded corners for the input fields */
+  }
+  
+  .title {
+    color: #fff; /* Color for the title text */
+    font-size: 1.2rem; /* Title text size */
+  }
+  
+  @media (max-width: 768px) {
+    .sticky-header {
+      flex-direction: column; /* Stack the inputs and title vertically on small screens */
+    }
+  
+    .form-field {
+      margin-bottom: 10px; /* Add space between the inputs */
+    }
+  
+    .title {
+      margin-bottom: 10px; /* Add space below the title */
+    }
+  }
+  

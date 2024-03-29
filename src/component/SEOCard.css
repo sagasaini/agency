@@ -1,0 +1,51 @@
+.seo-graph-container {
+    margin: 50px;
+    margin-left: 201px;
+
+    position: relative;
+    padding: 1rem;
+  }
+  
+  /* Adjust your styles to properly position the slider */
+  .rc-slider {
+    padding-top: 13em;
+    position: relative;
+    width: 89%;
+    height: 28rem;
+    margin-top: -26rem;
+  }
+  
+  .rc-slider-rail {
+    /* Style for the rail */
+    background-color: #ddd;
+  }
+  
+  .rc-slider-track {
+    /* Style for the track */
+    background-color: transparent;
+  }
+  
+  .rc-slider-handle {
+    /* Style for the handle */
+    border: 2px solid #999;
+    height: 128px;
+    width: 28px;
+    margin-left: -14px;
+    margin-top: -14px;
+    background-color: white;
+  }
+  
+
+  .graph-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  
+  .graph-header h1 {
+    text-align: center;
+    font-size: 41px;
+    color: wheat;
+  }
