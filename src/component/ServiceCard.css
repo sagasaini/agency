@@ -1,6 +1,8 @@
 .services-section {
     color: #fff;
     background-color: #002244;
+    background: url('../../public/images/main-background-2.png') ;
+    background-size: 100% 100%;
     padding: 40px 20px;
     font-family: 'Open Sans', sans-serif;
   }

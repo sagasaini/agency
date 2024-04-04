@@ -1,9 +1,14 @@
+.herosection-1{
+  background: url('../../public/images/main-background.jpeg') no-repeat;
+  background-size: 100% 100%;
+}
 .hero-section {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   color: white;
-  background-color: #002244; /* A dark blue background color */
+  /* background-color: #002244; A dark blue background color */
+ 
 }
 
 .left-column, .right-column {

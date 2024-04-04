@@ -26,6 +26,14 @@
     max-width: 124rem;
     padding: 4rem 1rem;
     margin: 0 auto;
+    background: url('../../public/images/main-background-3.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .slider-container-1 h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
   }
   
   .heading {
@@ -78,6 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
   }
   
   .slider-controler-1 .swiper-button-next {

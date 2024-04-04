@@ -26,6 +26,8 @@
     max-width: 124rem;
     padding: 4rem 1rem;
     margin: 0 auto;
+    background: url('../../public/images/main-background-1.png') no-repeat;
+    background-size: 100% 100%;
   }
   
   .heading {

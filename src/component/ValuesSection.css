@@ -7,6 +7,8 @@
   align-items: center;
   /* height: 45vh; */
   background: #002244;
+  background: url('../../public/images/main-background-6.png') no-repeat;
+  background-size: 100% 100%;
 }
 .container {
   display: flex;

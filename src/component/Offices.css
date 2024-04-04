@@ -1,5 +1,7 @@
 .offices-section {
     background: #002244;
+    background: url('../../public//images/main-background-1.png') no-repeat;
+    background-size: 100% 100%;
     color: #fff;
     padding: 20px;
     font-family: 'Arial', sans-serif;

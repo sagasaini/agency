@@ -2,6 +2,8 @@
 .icon-section{
     text-align: center;
     background-color: #002244;
+    background: url('../../public//images/main-background-1.png') no-repeat;
+    background-size: 100% 100%;
 }
   .explore-button-container-1 {
     /* margin: 1rem 0; */
